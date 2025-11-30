@@ -18,7 +18,7 @@ BEGIN
     FROM sales
     WHERE `Customer ID` = customerId
     GROUP BY `Customer ID`, `Customer Name`;
-END$$
+END $$
 DELIMITER ;
 
 -- HOW TO USE: CALL GetCustomerHistory(3);
